@@ -70,7 +70,7 @@ a:active {
 #slider div {
     z-index: 3;
     width: 20%;
-    height: 731px;
+    height: 100%;
     float: left;
     box-sizing: border-box;
     overflow: hidden;
@@ -82,55 +82,37 @@ a:active {
     top: -74px;
     left: 0px;
     overflow: hidden;
+    height: 110vh;
     width: 500%;
     animation-name: slider;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
-#one {
-    background-image: url(new-york-city-3671887__340.webp);
-    background-size: cover;
-    font-size: 40px;
-    color: black;
-    z-index: 5;
-    display: flex;
+
+#one  img {
+    height: 100%;
+    width:100%;
 }
 
-#two {
-    background-image: url("istockphoto-1196727497-170667a.jpg");
-    background-size: cover;
-    font-size: 40px;
-    color: black;
-    z-index: 5;
-    display: flex;
+#two img {
+    height: 100%;
+    width:100%;
 }
 
-#three {
-    background-image: url(girl-in-the-elevator-1382909__340.webp);
-    background-size: cover;
-    font-size: 40px;
-    color: black;
-    z-index: 5;
-    display: flex;
+#three img {
+    height: 100%;
+    width:100%;
 }
 
-#four {
-    background-image: url(istockphoto-1216560985-170667a.jpg);
-    background-size: cover;
-    font-size: 40px;
-    color: black;
-    z-index: 5;
-    display: flex;
+#four img {
+    height: 100%;
+    width:100%;
 }
 
-#five {
-    background-image: url(new-york-city-3671887__340.webp);
-    background-size: cover;
-    font-size: 40px;
-    color: black;
-    z-index: 5;
-    display: flex;
+#five img {
+    height: 100%;
+    width:100%;
 }
 
 @keyframes slider {
